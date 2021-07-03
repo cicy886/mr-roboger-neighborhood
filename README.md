@@ -16,4 +16,10 @@ Test: "It should return 'Beep' if the given number contains 1."
 code:
 const num=1;
 rangeNumer(num);
-Expected output: 0, "Beep!"
+Expected output: 0, Beep!
+
+Test: "It should return 'Boop' if the given number contains 2."
+code:
+const num=2;
+rangeNumber(num);
+Expected output: 0, Beep!, Boop

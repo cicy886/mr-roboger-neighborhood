@@ -5,7 +5,7 @@ function rangeNumber(num){
   }
   for (let index=0; index<arr.length; index++) {
   }
-  return arr.join().replace(/1/ig,"beep!");
+  return arr.join().replace(/1/ig,"Beep!").replace(/2/ig,"Boop");
 }
 
 //UI Logic
