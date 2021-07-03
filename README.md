@@ -11,3 +11,9 @@ code:
 const num=2;
 rangeNumber(num);
 Expected Output: 0,1,2,3,4,5
+
+Test: "It should return 'Beep' if the given number contains 1."
+code:
+const num=1;
+rangeNumer(num);
+Expected output: 0, "Beep!"
