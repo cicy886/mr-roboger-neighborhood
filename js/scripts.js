@@ -7,3 +7,13 @@ function rangeNumber(num){
   }
   return arr.join("");
 }
+
+//UI Logic
+$(document).ready(function(event){
+  $("form#range-number").submit(function(event){
+    event.preventDefault();
+    const num = $("#number").val();
+    const outputNumber = rangeNumber(num);
+    $("#display-range-number").html(outputNumber);
+  });
+});
