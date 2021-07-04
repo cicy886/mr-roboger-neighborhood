@@ -3,3 +3,9 @@ h1 {
   color: pink;
   padding: 10px;
 }
+
+h3 {
+  border: solid lightblue 3px;
+  text-align: center;
+  color: yellowgreen;
+}
