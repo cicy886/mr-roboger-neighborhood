@@ -1,3 +1,4 @@
+//Business Logic
 function rangeNumber(num){
   let arr = [];
   let arr1 =[];
@@ -16,6 +17,7 @@ function rangeNumber(num){
       arr1.push(number);
     }
   });
+
   return arr1.join();
 }
 
