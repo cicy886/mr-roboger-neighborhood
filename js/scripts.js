@@ -10,6 +10,8 @@ function rangeNumber(num){
       arr1.push("Won't you be my neighbor?");
     }else if (newStrNum.charAt(0)==2 || newStrNum.charAt(1)==2 || newStrNum.charAt(2)==2 || newStrNum.charAt(3)==2) {
       arr1.push("Boop");
+    }else if (newStrNum.charAt(0)==1 || newStrNum.charAt(1)==1 || newStrNum.charAt(2)==1 || newStrNum.charAt(3)==1) {
+      arr1.push("Beep!");
     }else {
       arr1.push(number);
     }
