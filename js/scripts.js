@@ -1,11 +1,18 @@
 function rangeNumber(num){
   let arr = [];
+  let arr1 =[];
   for(let i = 0 ; i <= num ; i++) {
     arr.push(i);
   }
-  for (let index=0; index<arr.length; index++) {
-  }
-  return arr.join().replace(/1/ig,"Beep!").replace(/2/ig,"Boop").replace(/3/ig,"Won't you be my neighbor?");
+  arr.forEach(function(number){
+    let newStrNum=number.toString();
+    if (newStrNum.charAt(0)==3 || newStrNum.charAt(1)==3 || newStrNum.charAt(2)==3 || newStrNum.charAt(3)==3) {
+      arr1.push("Won't you be my neighbor?");
+    }else {
+      arr1.push(number);
+    }
+  });
+  return arr1.join();
 }
 
 //UI Logic
