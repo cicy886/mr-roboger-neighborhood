@@ -35,3 +35,9 @@ code:
 const num=13;
 rangeNumber (num);
 Expected output: 0, Beep!, Boop, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, 10, 11, 12, Won't you be my neighbor?
+
+Test: "It should return 'Boop' if the display number contains 2 and doesn't have 3"
+code:
+const num=14;
+rangeNumber (num);
+Expected output: Expected output: 0, Beep!, Boop, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, 10, 11, Boop, Won't you be my neighbor?
