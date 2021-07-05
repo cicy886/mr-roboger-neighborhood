@@ -1,3 +1,21 @@
+# Mr.Roboger's Neighborhood
+___________
+#### By Sisi Vieira
+## Discription
+This project includes one HTML file, one custom CSS file, one custom JS file, bootstrap.css, jquery-3.6.0.js, and one MD file. This webpage is supposed to replace the digits that contain 3 to "Won't you be my neighbor?". Replace all the digits that contain 2 but not 3 to "Boop" and replace all the digits that contain 1, but not 2 and 3 to "Beep!". You can add more content to the HTML file, the CSS file can decorate the webpage, and the JS file can make the webpage interactive with users.
+## Program Steup instruction
+On GitHub, navigate to the main page of the repository. Above the list of files, click **Code**. Click **Download ZIP** and download the files onto your machine. Open the HTML file or/and the CSS file with VS code or other coding applications you preferred.
+## Known Bugs
+The result may not be correct if the number contains too many digits.
+## Github page website
+https://cicy886.github.io/mr-roboger-neighborhood/
+## Lisence
+[MIT](https://opensource.org/licenses/MIT)
+
+Copyright (c) 2021 Sisi Vieira
+
+
+## The following are my specs
 Describe: rangeNumber()
 
 Test: "It should contain 1 number, if the given number is 0."
